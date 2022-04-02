@@ -3,13 +3,15 @@
  	<title>CSS</title>
  	<style type="text/css">
  		 p {color: mediumseagreen;}
- 		 img{border: dotted;border-color: white;}
+ 		 img{border: dotted;border-color:cadetblue;}
+          input{color: black;}
+          body{background-color: coral;}
  	</style>
  </head>
- <body bgcolor="black">
+ <body>
  	<h1 style="color: lightgray;text-align: center;"> Welcome to CSS</h1>
- 	<p style="color: skyblue"> GOOD MORNING </p>
- 	<p>This is internal CSS. It is generally written in head section.</p>
+ 	<p> GOOD MORNING </p>
+ 	<p><b>This is internal CSS. It is generally written in head section.</b></p>
  	<p>demo</p>
  	<img src="bgIMG.JPG" title="This is an image"><br><br>
  	<input type="submit" name="save" disabled>
