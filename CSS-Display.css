@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Display - 3 ways</title>
+<style>
+  span.a{display: block; background-color:#CC99FF; border:#000000 2px solid; height:100px; width:200px;}
+  span.b{display:inline; background-color:#CC99FF; border:#000000 2px solid; height:100px; width:200px;}
+  span.c{display:inline-block; background-color:#CC99FF; border:#000000 2px solid; height:100px; width:200px;}
+</style>
+</head>
+
+<body>
+<h2>display: block property</h2>
+<p>Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....<span class="a">Hello....</span>Hello....<span class="a">Hello....</span>Hello....</p>
+<h2>display: inline property</h2>
+<p>Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....<span class="b">Hello....</span>Hello....</p>
+<h2>display: inline-block property</h2>
+<p>Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....Hello....<span class="c">Hello....</span>&nbsp;<span class="c">Hello....</span>Hello....</p>
+
+</body>
+</html>
