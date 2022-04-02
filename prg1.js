@@ -4,7 +4,7 @@
   </head>
   <body>
     <script>
-       var x=Number(prompt("Enter age"));
+       var x=Number(prompt("Enter your age"));
        if(x>=18)
        {
        	  document.write("<mark>Congratulations!!!</mark>  You are eligible to vote");
